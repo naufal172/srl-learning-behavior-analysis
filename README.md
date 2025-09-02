@@ -1,4 +1,3 @@
-<img width="530" height="432" alt="image" src="https://github.com/user-attachments/assets/6dfdf3a2-3177-4446-affc-d6ecb334f305" /># srl-learning-behavior-analysis
 "Analyzing Self-Regulated Learning Patterns from LMS Logs"
 Proyek ini bertujuan untuk menganalisis perilaku belajar mahasiswa berdasarkan data log dari Learning Management System (LMS). Analisis dilakukan menggunakan K-Means Clustering untuk mengelompokkan mahasiswa ke dalam kategori SRL (Tinggi, Sedang, Rendah), kemudian divalidasi dan diprediksi ulang menggunakan Random Forest Classifier.
 
