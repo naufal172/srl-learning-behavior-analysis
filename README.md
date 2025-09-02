@@ -1,2 +1,5 @@
-# srl-learning-behavior-analysis
+<img width="530" height="432" alt="image" src="https://github.com/user-attachments/assets/6dfdf3a2-3177-4446-affc-d6ecb334f305" /># srl-learning-behavior-analysis
 "Analyzing Self-Regulated Learning Patterns from LMS Logs"
+Proyek ini bertujuan untuk menganalisis perilaku belajar mahasiswa berdasarkan data log dari Learning Management System (LMS). Analisis dilakukan menggunakan K-Means Clustering untuk mengelompokkan mahasiswa ke dalam kategori SRL (Tinggi, Sedang, Rendah), kemudian divalidasi dan diprediksi ulang menggunakan Random Forest Classifier.
+
+Hasil confusion matrix menunjukkan bahwa model Random Forest mampu mengklasifikasikan level Self-Regulated Learning (SRL) dengan akurasi tinggi. Kelas Rendah terprediksi hampir sempurna (98 benar, 1 salah), kelas Sedang juga cukup baik meskipun terdapat sedikit kesalahan (27 benar, 3 salah), dan kelas Tinggi berhasil dikenali seluruhnya (9 benar). Secara keseluruhan, performa model stabil dan hanya terdapat sedikit mis-klasifikasi pada kelas Sedang yang cenderung terdeteksi sebagai Rendah.”
